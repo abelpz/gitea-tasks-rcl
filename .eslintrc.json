@@ -1,0 +1,18 @@
+{
+  "parserOptions": {
+      "sourceType": "module",
+      "ecmaVersion": 2020
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "plugins": ["react-hooks"],
+  "globals": {
+    "window": true,
+    "document": true,
+    "console": true
+  },
+  "rules": {
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn" // <--- THIS IS THE NEW RULE
+  }
+  // // ...
+}
